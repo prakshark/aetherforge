@@ -1,0 +1,14 @@
+Aetherforge — flaky WiFi fallback recording checklist
+=====================================================
+
+1. Before the event: run `npm run dev`, open localhost:3000
+2. Theme = climate (Tideward)
+3. Screen-record (QuickTime / OBS) this loop once:
+   - Click Demo
+   - Wait for agents + levee
+   - Click Harbor Road (or flood hazard)
+   - Show critic score rise + evacuation spine
+4. Export MP4 to Desktop as `aetherforge-fallback.mp4` (60–75 seconds)
+5. Keep file on USB + laptop Desktop
+6. On stage: prefer live Demo button; if network dies, play the MP4 while narrating the 90s pitch
+7. Core agent loop needs NO cloud API keys — live demo works fully offline after `npm run build && npm start`
